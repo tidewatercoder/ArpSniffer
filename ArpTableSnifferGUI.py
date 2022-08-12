@@ -1,3 +1,4 @@
+# Not meant for malicious purposes or reconing, I was tasked with making this for a homework assignment for school.
 from scapy.layers.l2 import ARP
 from scapy.layers.l2 import Ether
 from scapy.all import *
