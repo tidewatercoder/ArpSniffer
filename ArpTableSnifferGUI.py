@@ -59,7 +59,7 @@ def ARPScanner(WhoWeAre, WhoAmI):
 
         for snd,rcv in ans2:
             x+=1
-            #if an address had been found the script would announce "Address Found" and see the snd, rcv inside the packets and grab the appropriate addresses
+            #if an address had been found the code would announce "Address Found" and see the snd, rcv inside the packets and grab the appropriate addresses
             # and combine them to make a key and value in the ARP Dictionary
             print("Address Found")
             ARPED[snd.pdst] = rcv.src
